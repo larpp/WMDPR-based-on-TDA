@@ -1,0 +1,4 @@
+matplotlib
+sciki-learn
+Ripser
+tqdm
