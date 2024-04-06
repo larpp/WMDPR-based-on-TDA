@@ -1,0 +1,10 @@
+python resnet50.py --img_path img_data10 --save_model results_resnet50_10.pt --test
+python resnet50.py --img_path img_data20 --save_model results_resnet50_20.pt --test
+python resnet50.py --img_path img_data30 --save_model results_resnet50_30.pt --test
+python resnet50.py --img_path img_data40 --save_model results_resnet50_40.pt --test
+python resnet50.py --img_path img_data50 --save_model results_resnet50_50.pt --test
+python resnet50.py --img_path img_data60 --save_model results_resnet50_60.pt --test
+python resnet50.py --img_path img_data70 --save_model results_resnet50_70.pt --test
+python resnet50.py --img_path img_data80 --save_model results_resnet50_80.pt --test
+python resnet50.py --img_path img_data90 --save_model results_resnet50_90.pt --test
+python resnet50.py --img_path img_data100 --save_model results_resnet50_100.pt --test

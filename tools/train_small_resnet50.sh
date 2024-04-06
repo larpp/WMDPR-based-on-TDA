@@ -1,0 +1,10 @@
+python resnet50.py --img_path img_data10 --num_workers 4 --save_model results_resnet50_10.pt
+python resnet50.py --img_path img_data20 --num_workers 4 --save_model results_resnet50_20.pt
+python resnet50.py --img_path img_data30 --num_workers 4 --save_model results_resnet50_30.pt
+python resnet50.py --img_path img_data40 --num_workers 4 --save_model results_resnet50_40.pt
+python resnet50.py --img_path img_data50 --num_workers 4 --save_model results_resnet50_50.pt
+python resnet50.py --img_path img_data60 --num_workers 4 --save_model results_resnet50_60.pt
+python resnet50.py --img_path img_data70 --num_workers 4 --save_model results_resnet50_70.pt
+python resnet50.py --img_path img_data80 --num_workers 4 --save_model results_resnet50_80.pt
+python resnet50.py --img_path img_data90 --num_workers 4 --save_model results_resnet50_90.pt
+python resnet50.py --img_path img_data100 --num_workers 4 --save_model results_resnet50_100.pt
