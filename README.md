@@ -146,7 +146,7 @@ sh tools/make_imbalance_img.sh
 sh tools/train_small_resnet50.sh
 
 # Imbalanced datasets
-sh tools/imbalance_resnet50.sh
+sh tools/train_imbalance_resnet50.sh
 ```
 
 **Test**
