@@ -8,6 +8,7 @@
 - [Method](#Method)
 - [Experiment](#Experiment)
 - [**Usage**](#Usage)
+- [Reference](#Reference)
 
 ## Abstract
 Wafer mapping, as it provides crucial information for identifying the root causes of defects, is an essential step in semiconductor manufacturing. Recently, a new approach was proposed for the wafer defect pattern classification using Topological Data Analysis (TDA). Throughout various experiments, this method has shown superior performances compared to the conventioanl CNN-based methods. However, ti soely focused on the shape of defect and cannot recognize the locational information of defects. To address this issues, we propose the Locational Persistence Images (LPI), which accurately and efficiently classfy both the shape and location of defects patterns simultaneously. Through several experiments on simulated datasets, we confirmed that this proposed method is faster and achieves competitive accuracy compared to the existing methods.
@@ -173,3 +174,16 @@ python main.py --pi_path TDA_data --save_model results_tda.pt --input_size 200 -
 ```
 python main.py --pi_path TDA_data --save_model results_tda.pt --input_size 200 --test
 ```
+
+### Optioanl
+**make PI**
+```
+python show_pi.py --label <1 to 22>
+```
+##Reference
+1. Nakazawa, T., & Kulkarni, D.V. (2018). Wafer map defect pattern classification and image retrieval using convolutional neural network. IEEE Transactions on Semiconductor MAnufacturing, 31(2), 309-314.
+2. Saqlain, M., Jargalsikhan, B., & Lee, J. Y. (2019). A voting ensemble classifier for wafer map defect patterns identifications in semiconductor manufacturing. IEEE Transactions on Semiconductor MAnufacturing, 31(2), 171-182.
+3. Wei , Y., & Wang, H. (2022). Mixed-type wafer defect pattern recognition framework based on multifaceted dynamic convolution. IEEE Transactions on Instrumentation and Measurement, 71, 1-11.
+4. Chazal, F., & Michel, B. (2021). An introduction to topological data analysis: fundamental and practical aspects for data scientists. Frontiers in artificial intelligence, 4, 108.
+5. Adams, H., Emerson, T., Kirby, M., Neville, R., Peterson, C., Shipman, P., ... & Ziegelmeier, L. (2017). Persistence images: A stable vector representation of persistent homology. Journal of Machine Learning Research, 18.
+6. Ko, S., & Koo, D. (2023). A novel approach for wafer defect pattern classification based on topological data analysis. Expert Systems with Applications, 120765.
