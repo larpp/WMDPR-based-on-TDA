@@ -181,8 +181,8 @@ python main.py --pi_path TDA_data --save_model results_tda.pt --input_size 200 -
 python show_pi.py --label <1 to 22>
 ```
 ## Reference
-1. Nakazawa, T., & Kulkarni, D.V. (2018). Wafer map defect pattern classification and image retrieval using convolutional neural network. IEEE Transactions on Semiconductor MAnufacturing, 31(2), 309-314.
-2. Saqlain, M., Jargalsikhan, B., & Lee, J. Y. (2019). A voting ensemble classifier for wafer map defect patterns identifications in semiconductor manufacturing. IEEE Transactions on Semiconductor MAnufacturing, 31(2), 171-182.
+1. Nakazawa, T., & Kulkarni, D.V. (2018). Wafer map defect pattern classification and image retrieval using convolutional neural network. IEEE Transactions on Semiconductor Manufacturing, 31(2), 309-314.
+2. Saqlain, M., Jargalsikhan, B., & Lee, J. Y. (2019). A voting ensemble classifier for wafer map defect patterns identifications in semiconductor manufacturing. IEEE Transactions on Semiconductor Manufacturing, 31(2), 171-182.
 3. Wei , Y., & Wang, H. (2022). Mixed-type wafer defect pattern recognition framework based on multifaceted dynamic convolution. IEEE Transactions on Instrumentation and Measurement, 71, 1-11.
 4. Chazal, F., & Michel, B. (2021). An introduction to topological data analysis: fundamental and practical aspects for data scientists. Frontiers in artificial intelligence, 4, 108.
 5. Adams, H., Emerson, T., Kirby, M., Neville, R., Peterson, C., Shipman, P., ... & Ziegelmeier, L. (2017). Persistence images: A stable vector representation of persistent homology. Journal of Machine Learning Research, 18.
